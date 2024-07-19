@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #app {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .inventory-container h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+  }
+  .cart-container h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .inventory-container, .cart-container {
+    width: 40%;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0px;
+  }
+  
+  li {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blanchedalmond;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 7px;
+  }
+  
+  button {
+    margin-left: 10px;
+  }
+
+  .checkout-btn{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: absolute;
+    bottom:  10px;
+    right: 10px;
+    cursor: pointer;
+    width: calc(50% - 20px);
+    margin-top: 10px;
+  }
+
+  .minus-btn {
+    background-color: red; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 5px 10px;
+    cursor: pointer; 
+  }
+
+  .plus-btn {
+    background-color: green; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 5px 10px;
+    cursor: pointer; 
+  }
+
+  .add-btn{
+    background-color: blue; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 5px 10px;
+    cursor: pointer; 
+  }
+
+  .delete-btn{
+    background-color: blue; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 5px 10px;
+    cursor: pointer; 
+  }
+  
+  .num1{
+    padding: auto;
+    margin-left: 10px;
+  }
+
